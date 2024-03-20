@@ -56,7 +56,8 @@ If (you brought your whistle) {
     - Eagle trails are longer, more dangerous, often wetter
     - Choose at your own peril
 
-**function catchTheHare**
+**function catchTheHare**  
+
     - In the rare occurance of seeing the hare on trail yell "Hare spoted"
     - The hounds mush catch the hare before they get to ON IN
     - Punishment/reward depends on Kennel
@@ -76,4 +77,4 @@ If (you brought your whistle) {
 10) If Harrow is found congrats you are on trueTrail, follow the harrow. 
 11) If you see Beer Near, init beerNear, search for beer, function songCheck may also apply spontaneosly during beerNear.
 12) If you see a Turkey Eagle split, init turkeyEagle, choose your path
-13) When you see the word "ON IN" the trail is complete, the trail has completed and now the real drinking begins.
+13) When you see the word "ON IN" the trail is complete, the trail has completed and now the real fun begins.
