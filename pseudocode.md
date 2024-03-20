@@ -1,30 +1,16 @@
+Object | Image
+------------ | -------------
+Check | ![Check](/IMG/check.jpg)
+Trail Mark | ![Trail Mark](/IMG/trailmark.jpg)
+Harrow (hare's arrow) | ![Harrow](/IMG/harrow.jpg)
+Beer Near | ![Beer Near](/IMG/beernear.jpg)
+Song Check | ![Song Check](/IMG/songcheck2.jpg)
+Turkey Eagle split | ![Turkey Eagle split](/IMG/turkeyeagle.jpg)
 
-# Object - Check
 
-![Check](/IMG/check.jpg)
+**function haresAway**  
 
-# Object - Trail Mark
-
-![Trail Mark](/IMG/trailmark.jpg)
-
-# Object - Harrow (hare's arrow)
-
-![Harrow](/IMG/harrow.jpg)
-
-# Object - Beer Near
-
-![Beer Near](/IMG/beernear.jpg)
-
-# Object - Song Check
-
-![Song Check](/IMG/songcheck2.jpg)
-
-# Object - Turkey Eagle split
-
-![Turkey Eagle split](/IMG/turkeyeagle.jpg)
-
-**function haresAway**
-    -wait 10 minutes why Hares start the trail
+    -wait 10 minutes while Hares start the trail
 
 **function searchForMark**  
 ```javascript
@@ -78,14 +64,16 @@ If (you brought your whistle) {
 # Hash Start
 (before Hash Start hasherAge >= 21)
 
-1) If liveHare Start haresAway, else goto 2
-2) Init searchForMark, after 3 marks in a row you are on trail, blowWhistle, you are on trueTrail, continue in that direction.
-3) If you are lost go back to the last mark and also listen for a whistle.
-4) If you see another Hasher searchForMark shout "R U?" They will tell you how many marks they have found since the last check. 
-5) If you hear a whistle, run in that direction.
-6) If a check is found, init searchForMark again, when trail is found mark check with the correct direction with chalk for the walkers.
-7) If a song check is found init songCheck - sing a song.
-8) If harrow is found congrats you are on the correct trail, follow the harrow. 
-9) If you see Beer Near, init beerNear, search for beer, function songCheck may also apply spontaneosly during beerNear.
-10) If you see a Turkey Eagle split, init turkeyEagle, choose your path
-11) When you see the word "ON IN" the trail is complete, the trail has completed and now the real drinking begins.
+1) Introductions, everyone introduces themselves
+2) Blessing of the Hares
+3) haresAway, wait 10 miutes
+4) Init searchForMark, after 3 marks in a row you are on trueTrail, blowWhistle,  continue in that direction.
+5) If you are lost - go back to the last mark - listen for a whistle.
+6) If you see another Hasher searchForMark shout "R U?" They will tell you how many marks they have found since the last check. 
+7) If you hear a whistle, run in that direction.
+8) If a check is found, init searchForMark again, when trail is found use chalk to mark the check with the correct direction for the walkers.
+9) If a song check is found init songCheck - sing a song.
+10) If Harrow is found congrats you are on trueTrail, follow the harrow. 
+11) If you see Beer Near, init beerNear, search for beer, function songCheck may also apply spontaneosly during beerNear.
+12) If you see a Turkey Eagle split, init turkeyEagle, choose your path
+13) When you see the word "ON IN" the trail is complete, the trail has completed and now the real drinking begins.
