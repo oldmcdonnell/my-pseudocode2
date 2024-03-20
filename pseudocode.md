@@ -51,7 +51,7 @@ print("congrats you are on trail")
 
 **function beerNear**
 
-    (beer location * prossibility of being discovered by non-hasher = better hidden)
+    (beer location * possibility of being discovered by non-hasher = better hidden)
 
     search for beer
 
@@ -69,7 +69,7 @@ print("congrats you are on trail")
 4) If you hear a whistle, run in that direction.
 5) If a check is found, init searchForMark again, when trail is found mark check with the correct direction with chalk for the walkers.
 6) If a song check is found init songCheck - sing a song.
-7) If harrow is found congrats you are on the correct trail. 
-8) If you Beer Near, init beerNear, search for beer, function songCheck may also apply spontaneosly at during beerNear.
+7) If harrow is found congrats you are on the correct trail, follow the harrow. 
+8) If you see Beer Near, init beerNear, search for beer, function songCheck may also apply spontaneosly during beerNear.
 9) If you see a Turkey Eagle split, init turkeyEagle, choose your path
-9) When you see the word "ON IN" the trail is complete, the trail has completed and now the real drinking begins.
+10) When you see the word "ON IN" the trail is complete, the trail has completed and now the real drinking begins.
