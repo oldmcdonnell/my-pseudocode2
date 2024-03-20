@@ -14,7 +14,7 @@ Turkey Eagle split | ![Turkey Eagle split](/IMG/turkeyeagle.jpg)
 
 **function searchForMark**  
 ```javascript
-if (trailMark > 3) {
+if (trailMark < 3) {
     continue searching
 } else {
     blowWhistle, you are on trueTrail
@@ -67,7 +67,7 @@ If (you brought your whistle) {
 
 1) Introductions, everyone introduces themselves, local rules are explained
 2) Blessing of the Hares
-3) Init haresAway, wait 10 miutes
+3) Init haresAway, wait 10 minutes
 4) Init searchForMark, after 3 marks in a row you are on trueTrail, blowWhistle,  continue in that direction.
 5) If you are lost - go back to the last mark - listen for a whistle.
 6) If you see another Hasher searchForMark shout "R U?" They will tell you how many marks they have found since the last check. 
