@@ -32,16 +32,22 @@ if (trailMark > 3) {
 }
 ```
 
-While searchForMark if markFound relay information to the pack with 
-- on 1
-- on 2
-- blowWhistle
+While searchForMark if markFound relay information to the pack 
+- Shout "On 1" for one mark
+- Shout "On 2" for two marks
+- BlowWhistle for three marks
+- If another hasher asks "R U?" respond with the number of marks accordingly
 
 
 **function blowWhistle**  
-blow your whistle 
-
-print("congrats you are on trail")
+```javascript
+If (you brought your whistle) { 
+        blowYourWhistle 
+    } else {
+        shout "ON-ON"
+    }
+```
+    print("congrats you are on trail")
 
 **function songCheck**
 1) From [Library](https://chicagohash.org/hashing-tools/hash-song-book/down-down-songs/) Array select random song
@@ -51,7 +57,7 @@ print("congrats you are on trail")
 
 **function beerNear**
 
-    (beer location * possibility of being discovered by non-hasher = better hidden)
+    (beer location * possibility of being discovered by non-hasher = hidding spot++)
 
     search for beer
 
